@@ -1,0 +1,37 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/relatorio_menu"
+        android:showAsAction="never"
+        android:title="@string/report" />
+    <item
+        android:id="@+id/add_menu"
+        android:showAsAction="never"
+        android:title="@string/sala_add" />
+</menu>
+
+-->
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_add"
+        android:title="@string/sala_add">
+    </item>
+    <item
+        android:id="@+id/relatorio_menu"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_relatorio"
+        android:title="@string/report">
+    </item>
+    <item
+        android:id="@+id/relatorio_total"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_relatorio"
+        android:title="@string/relatorio_total">
+    </item>
+</menu>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/patmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/message"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/patId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/patSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/sala"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sala_hint"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/cadeiras"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadeiras_hint"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/mesas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mesas_hint"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/projetores"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/projetores_hint"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:onClick="savePatrimonio"
+        android:text="@string/save_btn_msg"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:onClick="updatePatrimonio"
+        android:text="@string/update_btn_msg"
+        android:textColor="#ffffff" />
+
+    <ListView
+        android:id="@+id/salas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

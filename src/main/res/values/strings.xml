@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patrimônio</string>
+    <string name="message"> Adicionar Sala </string>
+    <string name="sala_hint"> Número da Sala </string>
+    <string name="cadeiras_hint"> Qtd. de cadeiras </string>
+    <string name="mesas_hint"> Qtd. de Mesas </string>
+    <string name="projetores_hint"> Qtd. de Projetores </string>
+    <string name="save_btn_msg"> Salvar </string>
+    <string name="update_btn_msg"> Atualizar </string>
+    <string name="delete_msg"> Excluir </string>
+    <string name="update_msg"> Editar </string>
+    <string name="report"> Relatório </string>
+    <string name="relatorio_total"> Patrimonio </string>
+    <string name="sala_add"> Adicionar Salas </string>
+</resources>
